@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo{
+    margin: 100px;
+    background: linear-gradient(rgb(29, 102, 161),rgb(39, 176, 218));
+    border: 1px solid black;;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+}
+
+.heading{
+    border: 2px solid white;
+}
+
+.heading h1{
+    color:white;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#enter-task{
+    display: flex;
+    padding: 15px;
+    height: 60px;
+}
+
+#enter-task input{
+    font-size: 1rem;
+    padding: 2px;
+    border: 2px solix black;
+}
+
+.list{
+    margin-left: 30px;
+}
+
+.tasks li{
+    font-size: 1.1rem;
+    color: rgba(237, 243, 245, 0.879);
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.each-task{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
